@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  background-color: darkgoldenrod;
+  padding: 15px 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  padding: 20px 0;
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: capitalize;
+}
+.con {
+  width: 100%;
+  background-color: darkorange;
+}
+.form {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 10px;
+}
+h2 {
+  color: #333;
+  font-size: 1.3rem;
+  line-height: 36px;
+}
+.select {
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-align: center;
+  cursor: pointer;
+  background-color: bisque;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+}
+input[type="text"] {
+  margin-right: 10px;
+  border-radius: 20px;
+  padding: 10px 30px;
+  background-color: bisque;
+  border: none;
+  outline: none;
+}
+input[type="text"]::placeholder {
+  font-size: 1rem;
+  color: #333;
+  text-transform: capitalize;
+  font-weight: 700;
+  opacity: 0.7;
+}
+.add {
+  background-color: bisque;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: rgb(18, 183, 183);
+  cursor: pointer;
+  color: #333;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.add:hover {
+  background-color: aqua;
+}
+.packingLists {
+  background-color: brown;
+  padding: 10px;
+  height: 350px;
+  position: relative;
+}
+ul {
+  margin: auto;
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  row-gap: 10px;
+  column-gap: 10px;
+  text-align: center;
+}
+li {
+  width: 10%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+input[type="checkbox"] {
+  cursor: pointer;
+}
+li :nth-child(2) {
+  color: white;
+}
+li button {
+  color: red;
+  font-size: 1.4rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.sorted {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.clear {
+  border-radius: 20px;
+  padding: 10px 30px;
+  text-align: center;
+  cursor: pointer;
+  background-color: bisque;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+.clear:hover {
+  background-color: rgb(219, 190, 153);
+}
+footer {
+  background-color: rgb(18, 183, 183);
+  text-align: center;
+  height: calc(100vh - 561px);
+}
+footer span {
+  color: #333;
+  font-size: 1.2rem;
+}
