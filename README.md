@@ -13,4 +13,4 @@
 
 ---
 ## Run it😎
-[Run](http://172.26.32.1:3000)😍
+[Run](https://far-away-theta-six.vercel.app/)😍
